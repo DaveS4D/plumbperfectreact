@@ -8,27 +8,7 @@ import "aos/dist/aos.css";
 import { Helmet } from "react-helmet";
 // import { jarallax } from "jarallax";
 import AnimatedCursor from "react-animated-cursor";
-import { useMediaQuery } from 'react-responsive'
 
-const isMobileDevice = useMediaQuery({
-  query: "(min-device-width: 480px)",
-});
-
-const isTabletDevice = useMediaQuery({
-  query: "(min-device-width: 768px)",
-});
-
-const isLaptop = useMediaQuery({
-  query: "(min-device-width: 1024px)",
-});
-
-const isDesktop = useMediaQuery({
-  query: "(min-device-width: 1200px)",
-});
-
-const isBigScreen = useMediaQuery({
-  query: "(min-device-width: 1201px )",
-});
 
 const App = () => {
   useEffect(() => {
@@ -48,14 +28,6 @@ const App = () => {
       </Helmet>
       {/* End React Helmet for SEO */}
 
-      {isMobileDevice && <Mobile />}
-  {isTabletDevice && <>
-  <TabletMobile />
-  {isDesktop && <Desktop />}
-  {isLaptop && <Laptop />}
-  {isBigScreen && <BigScreen />}
-</>}
-
       <AnimatedCursor
         innerSize={8}
         outerSize={44}
@@ -72,7 +44,6 @@ const App = () => {
       <AllRoutes />
       {/* End All Routes */}
     </>
-    
   );
 };
 
