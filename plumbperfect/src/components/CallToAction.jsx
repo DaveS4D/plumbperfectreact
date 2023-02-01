@@ -7,8 +7,8 @@ const CallToAction = () => {
       {/* <!--Animated Block--> */}
       <div className="ptf-animated-block" data-aos="fade" data-aos-delay="0">
         <div className="fz-12 has-color-3 text-uppercase">
-          Describe your <br />
-          project
+          Need a <br />
+          plumber?
         </div>
         {/* <!--Spacer--> */}
         <div className="ptf-spacer" style={{ "--ptf-xxl": "1.5625rem" }}></div>

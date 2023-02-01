@@ -107,9 +107,6 @@ const HomeFreelancer = () => {
                   </div>
                   {/* End .col */}
 
-                  <div className="col-xl-3 col-sm-6 order-xl-3 text-xl-end">
-                    <CounterFour />
-                  </div>
                   {/* End .col */}
                 </div>
               </div>
