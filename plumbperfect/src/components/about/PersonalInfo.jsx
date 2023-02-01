@@ -35,7 +35,7 @@ const PersonalInfo = () => {
         <div className="ptf-spacer" style={{ "--ptf-xxl": "2.8125rem" }}></div>
         <p className="fz-24 has-black-color has-secondary-font">
           Greater Manchester and Cheshire <br />
-          <a href="mailto:info@plumbperfect.co.uk">info@plumbperfect.co.uk</a>
+          <a href="mailto:info@plumb-perfect.co.uk">info@plumb-perfect.co.uk</a>
           <br />
           <a href="tel:+447984759694">07984759694</a>
           <br />
