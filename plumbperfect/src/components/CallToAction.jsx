@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const CallToAction = () => {
   return (
@@ -6,16 +7,17 @@ const CallToAction = () => {
       {/* <!--Animated Block--> */}
       <div className="ptf-animated-block" data-aos="fade" data-aos-delay="0">
         <div className="fz-12 has-color-3 text-uppercase">
-          Need a <br />
-          plumber?
+          Describe your <br />
+          project
         </div>
         {/* <!--Spacer--> */}
         <div className="ptf-spacer" style={{ "--ptf-xxl": "1.5625rem" }}></div>
         <div className="fz-100 fz-90--md has-black-color fw-normal lh-0p8 has-secondary-font">
-          <a href="tel:+447984759694">
+          <Link className="ptf-filled-link" to="/contact">
             Call <br />
             Plumb<br />
-            Perfect!</a>
+            Perfect
+          </Link>
         </div>
         {/* <!--Spacer--> */}
         <div className="ptf-spacer" style={{ "--ptf-xxl": "0.625rem" }}></div>

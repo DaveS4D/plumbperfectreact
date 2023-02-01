@@ -12,6 +12,7 @@ import InstagramFeed from "../../components/InstagramFeed";
 import Portfolio from "../../components/portfolio/Portfolio";
 import Resume from "../../components/Resume";
 import TestimonialThree from "../../components/testimonial/TestimonialThree";
+import ContactForm from "../../components/ContactForm"
 
 const avatar = "assets/img/about-me-main-image.jpg";
 
@@ -356,6 +357,8 @@ const HomeFreelancer = () => {
                   <CallToAction />
                 </div>
               </div>
+              
+              
               {/* <!--Spacer--> */}
               <div
                 className="ptf-spacer"

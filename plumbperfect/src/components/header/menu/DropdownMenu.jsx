@@ -13,6 +13,17 @@ const menuContent = [
       },
     ],
   },
+  {
+    name: "Contact Us",
+    activeClass: "",
+    menuClass: "two-columns",
+    dropDownItems:[
+    {
+      name: "Contact Us",
+      routerPath: "/contact"
+    }
+    ]
+  }
 ];
 
 const DropdownMenu = () => {

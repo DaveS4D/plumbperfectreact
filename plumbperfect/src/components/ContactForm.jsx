@@ -3,9 +3,10 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as Yup from "yup";
 import emailjs from "@emailjs/browser"
-import { Form } from "react-bootstrap"
+import { useRef} from 'react'
 
 const ContactForm = () => {
+  const form = useRef();
   // for validation
   const validationSchema = Yup.object().shape({
     name: Yup.string().required("Name is required"),
@@ -28,28 +29,24 @@ const ContactForm = () => {
   const { errors } = formState;
 
   const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs.sendForm('service_dfbp356', 'template_yvsg7ks', Form.current, 'P83NsVYeb4Z5LrrNU')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
+  e.preventDefault();
+   emailjs.sendForm('service_dfbp356', 'template_lr8pad8', form.current, 'P83NsVYeb4Z5LrrNU')
+   .then((result) => {
+   console.log(result.text);
+   alert("Message Sent")
+   }, (error) => {
+   console.log(error.text);
+   alert("Something went wrong")
+     });
+     e.target.reset()
   };
 
-  function onSubmit(data, e) {
-    // display form data on success
-    console.log("Message submited: " + JSON.stringify(data));
-
-    e.target.reset();
-  }
   return (
-    <form  onSubmit={handleSubmit + sendEmail (onSubmit)} className="contact_form">
+    <form ref={form} onSubmit={sendEmail} className="contact_form">
       <div className="ptf-form-group">
         <label data-number="01">What’s your name?</label>
         <input
-          type="text"
+          type="text" 
           name="name"
           {...register("name")}
           className={`${errors.name ? "is-invalid" : ""}`}
@@ -123,8 +120,8 @@ const ContactForm = () => {
           {...register("budget")}
           className={`${errors.budget ? "is-invalid" : ""}`}
         >
-          <option value="">No</option>
-          <option value="100-200">Yes</option>
+          <option value="No">No</option>
+          <option value="Yes">Yes</option>
         </select>
         {errors.budget && (
           <div className="invalid-feedback">{errors.budget?.message}</div>
