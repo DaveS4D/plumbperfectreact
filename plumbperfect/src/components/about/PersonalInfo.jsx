@@ -9,7 +9,7 @@ const PersonalInfo = () => {
           Who we are
         </h5>
         {/* <!--Spacer--> */}
-        <div className="ptf-spacer" style={{ "--ptf-xxl": "2.8125rem" }}></div>
+        <div className="ptf-spacer" style={{ "--ptf-xxl": "2.8125rem", alignItems:'center' }}></div>
         <p
           className="fz-24 has-black-color has-secondary-font"
           style={{ maxWidth: "15.3125rem" }}
@@ -32,7 +32,7 @@ const PersonalInfo = () => {
       <div className="ptf-animated-block" data-aos="fade" data-aos-delay="200">
         <h5 className="fz-14 text-uppercase has-3-color fw-normal">Contact</h5>
         {/* <!--Spacer--> */}
-        <div className="ptf-spacer" style={{ "--ptf-xxl": "2.8125rem" }}></div>
+        <div className="ptf-spacer" style={{ "--ptf-xxl": "2.8125rem", alignItems:'center' }}></div>
         <p className="fz-24 has-black-color has-secondary-font">
           Greater Manchester and Cheshire <br />
           <a href="mailto:info@plumb-perfect.co.uk">info@plumb-perfect.co.uk</a>
@@ -57,7 +57,7 @@ const PersonalInfo = () => {
       <div className="ptf-animated-block" data-aos="fade" data-aos-delay="300">
         <h5 className="fz-14 text-uppercase has-3-color fw-normal">Services</h5>
         {/* <!--Spacer--> */}
-        <div className="ptf-spacer" style={{ "--ptf-xxl": "2.8125rem" }}></div>
+        <div className="ptf-spacer" style={{ "--ptf-xxl": "2.8125rem", alignItems:'center' }}></div>
         <p className="fz-24 has-black-color has-secondary-font">
           Water Leaks <br />
           Blocked Drains <br />
