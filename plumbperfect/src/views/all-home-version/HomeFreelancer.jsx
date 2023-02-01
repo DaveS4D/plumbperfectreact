@@ -313,7 +313,7 @@ const HomeFreelancer = () => {
                   data-aos-delay="0"
                 >
                   <h2 className="has-secondary-font fw-normal text-center">
-                    <a href="https://www.instagram.com/plumbperfect_manchester/">@plumbperfect_manchester</a>
+                    <a href="https://www.instagram.com/plumbperfect_manchester/">Check out our Instagram</a>
                   </h2>
                 </div>
 
