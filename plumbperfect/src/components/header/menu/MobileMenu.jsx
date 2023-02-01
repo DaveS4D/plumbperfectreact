@@ -16,7 +16,16 @@ const menuContent = [
     dropDownItems: [
       {
         name: "Home",
-        routerPath: "/home-freelancer",
+        routerPath: "/home",
+      },
+    ],
+  },
+  {
+    name: "Contact Us",
+    dropDownItems: [
+      {
+        name: "Contact Us",
+        routerPath: "/Contact",
       },
     ],
   },
