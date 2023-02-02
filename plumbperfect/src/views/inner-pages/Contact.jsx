@@ -11,7 +11,7 @@ const Contact = () => {
   return (
     <div>
       <Helmet>
-        <title>PlumbPerfect - Contact mobile plumber in Manchester</title>
+        <title>PlumbPerfect - Contact - Mobile plumber in Manchester and Cheshire</title>
       </Helmet>
       {/* End Page SEO Content */}
 
@@ -49,7 +49,7 @@ const Contact = () => {
                     data-aos-delay="300"
                   >
                     <h5 className="fz-14 text-uppercase has-3-color fw-normal">
-                      Tell us about your project and goals.
+                      Tell us about you the work you require.
                     </h5>
                     {/* <!--Spacer--> */}
                     <div
