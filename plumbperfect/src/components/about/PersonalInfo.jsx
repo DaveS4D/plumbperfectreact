@@ -35,7 +35,7 @@ const PersonalInfo = () => {
         <div className="ptf-spacer" style={{ "--ptf-xxl": "2.8125rem", alignItems:'center' }}></div>
         <p className="fz-24 has-black-color has-secondary-font">
           Greater Manchester and Cheshire <br />
-          <a href="mailto:info@plumb-perfect.co.uk">info@plumb-perfect.co.uk</a>
+          <a href="mailto:contactus@plumb-perfect.co.uk">contactus@plumb-perfect.co.uk</a>
           <br />
           <a href="tel:+447984759694">07984759694</a>
           <br />
@@ -59,13 +59,10 @@ const PersonalInfo = () => {
         {/* <!--Spacer--> */}
         <div className="ptf-spacer" style={{ "--ptf-xxl": "2.8125rem", alignItems:'center' }}></div>
         <p className="fz-24 has-black-color has-secondary-font">
-          Water Leaks <br />
-          Blocked Drains <br />
           Bathroom / Wet room installation <br />
           Disabilty / Mobility <br />
           WC / Cloakroom conversion <br />
           Tiling <br />
-          Burst Pipes
         </p>
       </div>
       {/* End .ptf-animated-block */}

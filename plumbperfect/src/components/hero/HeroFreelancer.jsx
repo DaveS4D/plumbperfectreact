@@ -2,7 +2,7 @@ import React from "react";
 
 const heroContent = {
   text1: "Plumb Perfect",
-  text2: " Mobile Plumbing Services",
+  text2: " Bathroom Installations",
   text3: " Covering Greater Manchester and Cheshire",
 };
 

@@ -12,7 +12,6 @@ import InstagramFeed from "../../components/InstagramFeed";
 import Portfolio from "../../components/portfolio/Portfolio";
 import Resume from "../../components/Resume";
 import TestimonialThree from "../../components/testimonial/TestimonialThree";
-import ContactForm from "../../components/ContactForm"
 
 const avatar = "assets/img/about-me-main-image.jpg";
 
@@ -20,7 +19,7 @@ const HomeFreelancer = () => {
   return (
     <div className="ptf-site-wrapper animsition ptf-is--home-freelancer ">
       <Helmet>
-        <title>Plumb Perfect - Mobile Plumbing covering Cheshire and Manchester</title>
+        <title>Plumb Perfect - Plumbing and Bathroom Installation covering Cheshire and Manchester</title>
       </Helmet>
       {/* End Page SEO Content */}
 
